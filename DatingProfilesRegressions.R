@@ -3,6 +3,7 @@ getwd()
 
 data <- read.csv("profiles.csv")
 
+##Data is csv file of OKCupid dating profiles from Kaggle
 
 ##Create Gender variable by altering sex variable inputs to integers
 data$Gender <- NA
